@@ -1,11 +1,19 @@
 *{
     background-color: rgb(36, 36, 36);
+    font-family: 'Jua', sans-serif;
 }
 
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+/* @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 * {
     font-family: "Pretendard",serif;
-}
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
 
 .myprofile{
     width: 200px;
@@ -15,7 +23,7 @@
     background-color: aqua;
 
     border: 5px solid white;
-    background-image: url(anya2.PNG);
+    background-image: url(./img/anya2.PNG);
     background-position: center;
     background-size: cover;
 
@@ -56,7 +64,7 @@
     margin-bottom: 16px;
 
     font-size: 16px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: black;
 
     display: flex;
@@ -82,10 +90,10 @@
     height: 205px;
 
     border-radius: 100%;
-   
+    background-color: aqua;
 
     border: 5px solid white;
-    background-image: url(anya2.PNG);
+    background-image: url(./img/anya2.PNG);
     background-position: center;
     background-size: cover;
 
